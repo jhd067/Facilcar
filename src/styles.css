@@ -1,0 +1,308 @@
+/* You can add global styles to this file, and also import other style files */
+.nav
+{
+    background-color: #ffc62a;
+    height: 82px;
+}
+
+li{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 132px;
+}
+
+.footer{
+    background-color: #C9D2D3;
+    height: 100%;
+    bottom: 0;
+    
+}
+
+.title-footer{
+    font-style: bold;
+}
+.sidebar{
+   position:fixed; 
+   width: 210px;
+   height: 60%;
+   background-color: rgba(0, 0, 0, 0.185);;
+  
+}
+
+
+.select{
+    width: 200px;
+    
+}
+.name_filtro{
+    margin-bottom: 12px;
+}
+.home{
+    margin-left: 210px;
+}
+
+.filtro-select{
+    border-radius: 30px;
+    width:60px;
+    height: 15px;
+    margin-right: 40px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.banner{
+    background-image: url(".././src/assets/img/banner-facilcar.jpg");
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+     width: 100%;
+    height:140vh; 
+    padding-left: 100px;
+    
+}
+
+.prueba{
+    width:2600px;
+    height: 2300px;
+
+}
+
+.btn{
+    background-color: #ffc62a;
+    color:#fff;
+    margin-top: 300px;
+    margin-left: 500px;
+    justify-content: center;
+    align-items: center;
+   
+
+}.btn:hover{
+    background-color: #ffc62a;
+    color:#fff;
+    margin-top: 300px;
+    margin-left: 500px;
+    justify-content: center;
+    align-items: center;
+}
+.btn-form{
+    background-color: #ffc62a;
+    font-weight: bold;
+    border-radius: 10px;
+    border-color: #fff;
+    width: 150px;
+    height: 40px;
+    color:#fff;
+    margin-top: 30px;
+    margin-left: 100px;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+
+}
+.tittle_cf{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+   
+
+}
+.Quienes_somos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.items{
+    margin-top: 250px;
+}
+
+li{
+    font-size: 20px;
+    font-weight: bold;
+}
+.item_2{
+    color: #ffc62a;
+
+}
+form{
+    width: 400px;
+    height: 500px;
+    margin-top: 80px;
+    margin-left: 60px;
+   
+    justify-content: center;
+    align-items: center;
+}
+.form-group{
+    margin-top: 12px;
+    margin-left: 2px;
+}
+
+.contactenos{
+    border: solid #ffc62a;
+    border-radius: 30px;
+    width: 500px;
+}
+.redes_sociales{
+    margin-top: 80px;
+   
+    justify-content: center;
+    align-items: center;
+    
+}
+.title_redessoc{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 80px;
+    margin-bottom: 19px;
+}
+.city_card{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 80px;
+    margin-top: 29px;
+
+}
+.card-ciudades{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 287px;
+     height: 60px;
+    background: #ffc62a;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 12px;
+}
+.filtro
+{
+    width:20px;
+
+}
+.logo-email{
+    width: 20px;
+    height: 20px;
+}
+
+.card-email{
+    height: 60px;
+    background: #ffc62a;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 12px;
+}
+/*Busqueda*/
+.imgcard{
+    height: 300px;
+    width: 300px;
+}
+.card-principal{
+    margin-top: 16px;
+    background-color: black;
+    border:1px solid #ffc62a;
+    border-radius: 12px;
+    height: auto !important;
+    width: 1050px;
+}
+.card-titles{
+    
+    font-weight: bold;
+}
+
+
+/*Responsive*/
+
+@media (max-width: 576px) { 
+    .banner{
+        
+        
+       
+        width: 100%;
+        height:45vh;
+        
+    }
+    .items{
+        margin-top: 50px;
+    }
+    
+    .item_1{
+        font-size: 14px;
+        text-align: center;
+       
+
+    }
+
+    .item_2{
+        color: #ffc62a;
+        font-size: 14px;
+        text-align: center;
+    
+    }
+
+    .slide{
+        margin-left: 10px;
+        width:270px;
+        height: 180px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 0;
+          
+    }
+   
+    
+    .btn{
+        background-color: #ffc62a;
+        color:#fff;
+        margin-top: 30px;
+        margin-left: 30px;
+        justify-content: center;
+        align-items: center;
+        font-size: 12px;
+    
+    }.btn:hover{
+        background-color: #ffc62a;
+        color:#fff;
+        margin-top: 10px;
+        margin-left: 10px;
+        justify-content: center;
+        align-items: center;
+        font-size: 12px;
+    }
+
+    .btn-form{
+        background-color: #ffc62a;
+        color:#fff;
+        margin-top: 30px;
+        margin-left: 30px;
+        justify-content: center;
+        align-items: center;
+        font-size: 16px;
+
+    }
+
+    .logo-email{
+        width: 16px;
+        height: 16px;
+    }
+    
+    .card-email{
+        height: 30px;
+        background: #ffc62a;
+        color: #fff;
+        font-weight: bold;
+        text-align: center;
+        font-size: 12px;
+        padding-top: 12px;
+    }
+    
+
+ }

@@ -1,0 +1,32 @@
+
+
+<div class="card-group card-principal">
+  <div *ngFor="let carro of carros?.datos" class="card" >
+    <img [src]="carro.fotosventa_ruta" class="imgcard" alt="">
+    <div class="card-body" >
+      <h5 class="card-title card-titles">{{carro.ciudad_codigo}}</h5>
+      <p class="card-text"><strong>Marca:</strong>{{carro.linea_familia}}.</p>
+      <p class="card-text"><strong>Nombre:</strong>{{carro.linea_nombre}}.</p>
+      <p class="card-text"><strong>precio:$</strong>{{carro.venta_valor}}.</p>
+     
+    </div>
+  </div>
+  
+  
+</div>
+<!-- <div class="row">
+  <div class="col">
+    <div *ngFor="let carro of carros?.datos;" class="card">
+     
+      <img [src]="carro.fotosventa_ruta" class="card-img-top imgcard" alt="..."> 
+      <div class="card-body">
+        <h5 class="card-title">Codigo ciudad</h5>
+        <p class="card-text">{{ carro.ciudad_codigo }}</p>
+        <h5 class="card-title">Linea</h5>
+        <p class="card-text">{{ carro.linea_nombre }}</p>
+        <h5 class="card-title">Familia</h5>
+        <p class="card-text">{{ carro.Linea_familia }}</p>
+      </div>
+    </div>
+  </div>
+</div> -->

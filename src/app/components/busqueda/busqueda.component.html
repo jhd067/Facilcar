@@ -1,13 +1,13 @@
 
-
+<h1 class="title_busqueda"><span style="color:#000">Clasi</span><span style="color:#ffc62a">ficados</span></h1>
 <div class="card-group card-principal">
   <div *ngFor="let carro of carros?.datos" class="card" >
     <img [src]="carro.fotosventa_ruta" class="imgcard" alt="">
     <div class="card-body" >
-      <h5 class="card-title card-titles">{{carro.ciudad_codigo}}</h5>
-      <p class="card-text"><strong>Marca:</strong>{{carro.linea_familia}}.</p>
-      <p class="card-text"><strong>Nombre:</strong>{{carro.linea_nombre}}.</p>
-      <p class="card-text"><strong>precio:$</strong>{{carro.venta_valor}}.</p>
+      <!-- <h5 class="card-title card-titles">{{carro.ciudad_codigo}}</h5> -->
+      <p class="card-text linea_nombre">{{carro.linea_nombre}}.</p>
+      <!-- <p class="card-text"><strong>Marca:</strong>{{carro.linea_familia}}.</p> -->
+      <p class="card-text precio">${{carro.venta_valor}}.</p>
      
     </div>
   </div>

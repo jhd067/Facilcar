@@ -1,10 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-
 import { Router } from '@angular/router';
 import { Listcarros } from 'src/app/models/listcarros';
-import { Listpacientes } from '../../models/listpaciente';
 import { ApiService } from '../../services/api.service';
-import { PruebaService } from '../../services/prueba.service';
+
 
 
 

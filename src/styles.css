@@ -1,4 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: "Fontfabric-UniNeueHeavy";
+    src: url("/assets/fonts/Fontfabric-UniNeueHeavy.otf");
+  }
+
+@font-face {
+    font-family: "Fontfabric-UniNeueBold";
+    src: url("/assets/fonts/Fontfabric-UniNeueBold.otf");
+  }
+
 .nav
 {
     background-color: #ffc62a;
@@ -200,21 +210,41 @@ form{
     padding-top: 12px;
 }
 /*Busqueda*/
+.title_busqueda{
+    margin-top: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Fontfabric-UniNeueHeavy";
+}
 .imgcard{
     height: 300px;
-    width: 300px;
+    width: 100%;
 }
 .card-principal{
     margin-top: 16px;
     background-color: black;
-    border:1px solid #ffc62a;
+   
     border-radius: 12px;
     height: auto !important;
     width: 1050px;
 }
-.card-titles{
+/* .card-titles{
     
     font-weight: bold;
+} */
+.linea_nombre{
+    font-size: 22px;
+    color: #000;
+    font-family: "Fontfabric-UniNeueHeavy"; 
+   
+}
+
+.precio{
+    font-size: 18px;
+    color: #424141;
+    font-family: "Fontfabric-UniNeueHeavy"; 
+
 }
 
 

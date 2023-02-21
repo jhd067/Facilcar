@@ -1,4 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
 @font-face {
     font-family: "Fontfabric-UniNeueHeavy";
     src: url("/assets/fonts/Fontfabric-UniNeueHeavy.otf");
@@ -11,12 +19,18 @@
 
 .nav
 {
-    background-color: #ffc62a;
+    
+    width: 100% !important;
+    background-color: #ffbc2a;
     height: 82px;
 }
 
+a{
+    text-decoration: none;
+}
+
 li{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Fontfabric-UniNeueHeavy";
     margin-left: 132px;
 }
 
@@ -31,11 +45,34 @@ li{
     font-style: bold;
 }
 .sidebar{
-   position:fixed; 
+   position:absolute; 
+   margin-top:10px;
+   margin-left: 2px;
+   flex-direction: column;
    width: 210px;
-   height: 60%;
-   background-color: rgba(0, 0, 0, 0.185);;
+   height: 1695px;
+   border-radius: 12px;
+   background-color: rgba(0, 0, 0, 0.1);
+   
   
+}
+
+.btn-buscar{
+    background-color: #ffc62a;
+    color:#fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 32px;
+    border-radius: 12px;
+    margin-top: 30px;
+    margin-left: 40px; 
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: #424141;
+    font-family: "Fontfabric-UniNeueHeavy";
 }
 
 
@@ -47,13 +84,42 @@ li{
     margin-bottom: 12px;
 }
 .home{
-    margin-left: 210px;
+    margin-left: 220px;
+}
+
+.img-2{
+    width:300px;
+    height: 200px;
+    
+}
+
+.img-1{
+    width:100%;
+    height: 200px;
+    
+}
+
+
+.relevantes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 150px;
+    margin-top: 12px;
+    width: 700px;
+    
+}
+
+.aviso{
+    margin-top: 22px;
+    width: 1100px;
+    height: 300px;
 }
 
 .filtro-select{
     border-radius: 30px;
     width:60px;
-    height: 15px;
+    height: 5px;
     margin-right: 40px;
     display:flex;
     justify-content: center;
@@ -63,12 +129,12 @@ li{
 
 .banner{
     background-image: url(".././src/assets/img/banner-facilcar.jpg");
-    
     background-repeat: no-repeat;
-    background-size: cover;
-     width: 100%;
-    height:140vh; 
-    padding-left: 100px;
+    background-size:contain;
+    width: 100% !important;
+    overflow-x: hidden !important;;
+    height:700px; 
+   
     
 }
 
@@ -77,6 +143,8 @@ li{
     height: 2300px;
 
 }
+
+
 
 .btn{
     background-color: #ffc62a;
@@ -111,10 +179,13 @@ li{
 
 }
 .tittle_cf{
+    margin-left: -32px;
+    font-size: 38px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-weight: bold;
+    font-family: "Fontfabric-UniNeueHeavy";
+    
    
 
 }
@@ -148,6 +219,9 @@ form{
 .form-group{
     margin-top: 12px;
     margin-left: 2px;
+}
+.contacto{
+    margin-left: 220px;
 }
 
 .contactenos{
@@ -216,6 +290,9 @@ form{
     justify-content: center;
     align-items: center;
     font-family: "Fontfabric-UniNeueHeavy";
+}
+.busqueda{
+    margin-left: 220px;
 }
 .imgcard{
     height: 300px;

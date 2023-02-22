@@ -53,14 +53,14 @@ li{
 .footer{
     /* background-color: #C9D2D3; */
     width: 100%;
-    height: auto;
-       
-    position:absolute;top:1750px; 
+    height: auto;       
+    position:absolute;
+    top:1750px; 
     
     
   
  }
-
+ 
 
 
 .title-footer{
@@ -111,8 +111,21 @@ li{
     height: 100%;
 }
 /*About*/
+.title_mision{
+    text-align: justify;
+   
+}
 .mision{
     margin-top: 32px;
+}
+.mision_1{
+    margin-top: 42px;
+
+}
+
+.vision{
+
+    margin-top: 132px;
 }
 .imagen_about{
     margin-top: 212px;

@@ -2,9 +2,24 @@
 *{
     padding: 0px;
     margin: 0px;
+    
+
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
+}
+
+
+html{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100%;
+    
 }
 
 @font-face {
@@ -34,12 +49,19 @@ li{
     margin-left: 132px;
 }
 
+
 .footer{
-    background-color: #C9D2D3;
-    height: 100%;
-    bottom: 0;
+    /* background-color: #C9D2D3; */
+    width: 100%;
+    height: auto;
+       
+    position:absolute;top:1750px; 
     
-}
+    
+  
+ }
+
+
 
 .title-footer{
     font-style: bold;
@@ -50,7 +72,7 @@ li{
    margin-left: 2px;
    flex-direction: column;
    width: 210px;
-   height: 1695px;
+   height: 1305px;
    border-radius: 12px;
    background-color: rgba(0, 0, 0, 0.1);
    
@@ -83,8 +105,29 @@ li{
 .name_filtro{
     margin-bottom: 12px;
 }
+
 .home{
     margin-left: 220px;
+    height: 100%;
+}
+/*About*/
+.mision{
+    margin-top: 32px;
+}
+.imagen_about{
+    margin-top: 212px;
+}
+
+.img-mision{
+    height: auto;
+    width: 400px;
+}
+
+.about{
+    margin-top: 152px;
+    margin-left: 220px;
+    height: 100% !important;
+
 }
 
 .img-2{
@@ -111,9 +154,9 @@ li{
 }
 
 .aviso{
-    margin-top: 22px;
+    margin-top: 12px;
     width: 1100px;
-    height: 300px;
+    height: 250px;
 }
 
 .filtro-select{

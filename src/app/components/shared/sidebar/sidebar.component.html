@@ -1,48 +1,75 @@
 <div class="sidebar">
     <div class="filtro">
-      <div class="form-group">
-        <label for="exampleFormControlSelect1">Ubicacion</label>
-        <select class="form-control select" id="exampleFormControlSelect1">
-          <option>Bogotá</option>
-          <option>Cali</option>
-          <option>Medellín</option>
-          <option>Barranquilla</option>
-          <option>Cartagena</option>
-        </select>
+      <h4>Filtrar</h4>
+      <div class="form-group" style="margin-top:42px">
+        <label for="exampleFormControlSelect1 ">Ubicacion</label>
+        <div class="mb-3">
+          <select class="form-control select" id="exampleFormControlSelect1">
+            <option>Bogotá</option>
+            <option>Cali</option>
+            <option>Medellín</option>
+            <option>Barranquilla</option>
+            <option>Cartagena</option>
+          </select>
+        </div>
+      
+       
         
         <label for="exampleFormControlSelect1"  >Marca</label>
-        <select class="form-control select name_filtro" id="exampleFormControlSelect1">
-          <option>kia</option>
-          <option>hyundai</option>
-          <option>chevrolet</option>
-          <option>hyundai</option>
-          <option>honda</option>
-        </select>
+        <div class="mb-3">
+          <select class="form-control select name_filtro" id="exampleFormControlSelect1">
+            <option>kia</option>
+            <option>hyundai</option>
+            <option>chevrolet</option>
+            <option>hyundai</option>
+            <option>honda</option>
+          </select>
+
+        </div>
+        
+        
         <label for="exampleFormControlSelect1" class="name_filtro">Linea</label>
-        <select class="form-control select name_filtro" id="exampleFormControlSelect1">
-          <option>2014</option>
-          <option>2015</option>
-          <option>2016</option>
-          <option>2017</option>
-          <option>2018</option>
-        </select>
+        <div class="mb-3">
+          <select class="form-control select name_filtro" id="exampleFormControlSelect1">
+            <option>2014</option>
+            <option>2015</option>
+            <option>2016</option>
+            <option>2017</option>
+            <option>2018</option>
+          </select>
+
+        </div>
+        
         <label for="exampleFormControlSelect1" class="name_filtro">Año</label>
-        <select class="form-control select name_filtro" id="exampleFormControlSelect1">
-          <option>2014</option>
-          <option>2015</option>
-          <option>2016</option>
-          <option>2017</option>
-          <option>2018</option>
-        </select>
+        <div class="mb-3">
+          <select class="form-control select name_filtro" id="exampleFormControlSelect1">
+            <option>2014</option>
+            <option>2015</option>
+            <option>2016</option>
+            <option>2017</option>
+            <option>2018</option>
+          </select>
+        </div>
+        
         
         <label for="exampleFormControlSelect1" >Precio</label>
-        <select class="form-control select name_filtro" id="exampleFormControlSelect1">
-          <option>$15000</option>
-          <option>$3500</option>
-          <option>$45003</option>
-          <option>$15045</option>
-          <option>$1800</option>
-        </select>
+        <div class="mb-3">
+          
+            <input type="range" class="slider" min="150000" max="200000" value="100" oninput="rangeValue.innerText = this.value">
+            $<p id="rangeValue">150000</p>
+            
+          <select class="form-control select name_filtro" id="exampleFormControlSelect1">
+            <label for="customRange2" class="form-label">Example range</label>
+           
+            <option>$15000</option>
+            <option>$3500</option>
+            <option>$45003</option>
+            <option>$15045</option>
+            <option>$1800</option>
+          </select>
+
+        </div>
+     
       </div>
       <a href="http://localhost:4200/busqueda"><div class="btn-buscar">Buscar</div></a>
     </div>

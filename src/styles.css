@@ -49,6 +49,16 @@ li{
     margin-left: 132px;
 }
 
+label{
+    font-family: "Fontfabric-UniNeueBold";
+
+}
+
+h4{
+    font-family: "Fontfabric-UniNeueHeavy";
+    margin-left: 62px;
+}
+
 
 .footer{
     /* background-color: #C9D2D3; */
@@ -60,6 +70,8 @@ li{
     
   
  }
+
+
  
 
 
@@ -72,11 +84,20 @@ li{
    margin-left: 2px;
    flex-direction: column;
    width: 210px;
-   height: 1305px;
+   height: 705px;
    border-radius: 12px;
    background-color: rgba(0, 0, 0, 0.1);
    
   
+}
+.slider {
+    
+    width: 200px;
+    height: 60px;
+}
+
+#rangeValue{
+    font-family: "Fontfabric-UniNeueBold";
 }
 
 .btn-buscar{
@@ -100,6 +121,7 @@ li{
 
 .select{
     width: 200px;
+    
     
 }
 .name_filtro{
@@ -377,6 +399,93 @@ form{
     font-size: 18px;
     color: #424141;
     font-family: "Fontfabric-UniNeueHeavy"; 
+
+}
+
+/*planes*/
+.planes{
+    margin-left: 220px;
+}
+.section_barranquilla{
+    margin-top: 122px;
+   
+}
+
+.section_bogota{
+    margin-top: 152px;
+   
+}
+.title_ciudades{
+    
+   
+    margin-left: 140px;
+}
+
+.title_ciudades_cali{
+    
+
+    margin-left: 190px;
+}
+
+.title_ciudades_medellin{
+
+    margin-left: 100px;
+}
+
+.title_ciudades_cartagena{
+    margin-left: 600px;
+}
+
+.primera_fase{
+    color: #000;
+    font-family: "Fontfabric-UniNeueHeavy";
+
+}
+
+
+.segunda_frase{
+    color:#ffc62a;
+    font-family: "Fontfabric-UniNeueHeavy";
+   
+}
+
+.city-cali{
+    margin-left: 62px;
+}
+
+.img_asesor{
+    width:120px;
+    height: 120px;
+    margin-left: 10px;
+
+}
+
+.img_asesor_cali{
+    width:120px;
+    height: 120px;
+    margin-left: 120px;
+
+}
+
+.img_asesor_bogota{
+    width:120px;
+    height: 120px;
+    margin-left: 120px;
+
+}
+
+.img_asesor_medellin{
+    width:120px;
+    height: 120px;
+    margin-left: 90px;
+
+}
+
+.img_asesor_cartagena{
+    width:120px;
+    height: 120px;
+    margin-left: 610px;
+
 
 }
 

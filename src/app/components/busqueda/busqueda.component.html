@@ -1,6 +1,6 @@
 <div class="busqueda">
-
-  <h1 class="title_busqueda"><span style="color:#000">Clasi</span><span style="color:#ffc62a">ficados</span></h1>
+  <div class="container">
+    <h1 class="title_busqueda"><span style="color:#000">Clasi</span><span style="color:#ffc62a">ficados</span></h1>
   <div class="card-group card-principal">
     <div *ngFor="let carro of carros?.datos" class="card" >
       <img [src]="carro.fotosventa_ruta" class="imgcard" alt="">
@@ -16,5 +16,8 @@
     
   </div>
 
+  </div>
+
+  
 </div>
 

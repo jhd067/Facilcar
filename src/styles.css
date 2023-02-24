@@ -48,7 +48,11 @@ li{
     font-family: "Fontfabric-UniNeueHeavy";
     margin-left: 132px;
 }
-
+/*  li.active {
+    background-color: red;
+} */
+ 
+ 
 label{
     font-family: "Fontfabric-UniNeueBold";
 
@@ -84,11 +88,18 @@ h4{
    margin-left: 2px;
    flex-direction: column;
    width: 210px;
-   height: 705px;
+   height: 1505px;
    border-radius: 12px;
    background-color: rgba(0, 0, 0, 0.1);
    
   
+}
+
+
+.linea_filtro{
+    width: 200px;
+    opacity: 0.8;
+    color: #ffbc2a;
 }
 .slider {
     
@@ -121,9 +132,17 @@ h4{
 
 .select{
     width: 200px;
+    height: 40px;
+    border-radius: 12px;
+    border-style: none;
+    background-color: transparent;
     
     
+} 
+.select:focus{ 
+    outline: none !important;
 }
+ 
 .name_filtro{
     margin-bottom: 12px;
 }
@@ -131,6 +150,11 @@ h4{
 .home{
     margin-left: 220px;
     height: 100%;
+}
+
+.container_home{
+
+    margin-left: 20px;
 }
 /*About*/
 .title_mision{
@@ -301,6 +325,14 @@ form{
 .contacto{
     margin-left: 220px;
 }
+/*contactenos*/
+
+.rds{
+    margin-left: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .contactenos{
     border: solid #ffc62a;
@@ -372,6 +404,10 @@ form{
 .busqueda{
     margin-left: 220px;
 }
+
+.container{
+    margin-left: 120px;
+}
 .imgcard{
     height: 300px;
     width: 100%;
@@ -379,10 +415,9 @@ form{
 .card-principal{
     margin-top: 16px;
     background-color: black;
-   
     border-radius: 12px;
     height: auto !important;
-    width: 1050px;
+    width: 850px;
 }
 /* .card-titles{
     
@@ -406,6 +441,103 @@ form{
 .planes{
     margin-left: 220px;
 }
+
+.info{
+    width: 35px;
+    height: 45px;
+    margin-left: 2px;
+}
+
+.info_1{
+    width: 35px;
+    height: 45px;
+    margin-left: -56px;
+}
+
+.info_2{
+    width: 35px;
+    height: 45px;
+    margin-left: -116px;
+}
+.info_3{
+    width: 35px;
+    height: 45px;
+    margin-left: 122px;
+}
+
+.info_4{
+    width: 35px;
+    height: 45px;
+    margin-left: -26px;
+}
+
+.info_5{
+    width: 35px;
+    height: 45px;
+    margin-left: -176px;
+}
+
+.info_6{
+    width: 35px;
+    height: 45px;
+    margin-left: 116px;
+}
+
+.info_7{
+    width: 35px;
+    height: 45px;
+    margin-left: -26px;
+    
+}
+
+.info_8{
+    width: 35px;
+    height: 45px;
+    margin-left: -163px;
+}
+
+.info_9{
+    width: 35px;
+    height: 45px;
+    margin-left: 93px;
+}
+
+.info_10{
+    width: 35px;
+    height: 45px;
+    margin-left: -50px;
+}
+
+.info_11{
+    width: 35px;
+    height: 45px;
+    margin-left: -183px;
+}
+
+.info_12{
+    width: 35px;
+    height: 45px;
+    margin-left: 460px;
+}
+
+.info_13{
+    width: 35px;
+    height: 45px;
+    margin-left: -14px;
+}
+
+.info_14{
+    width: 35px;
+    height: 45px;
+    margin-left: -270px;
+}
+
+/* .info_15{
+    width: 35px;
+    height: 45px;
+    margin-left: -240px;
+} */
+
 .section_barranquilla{
     margin-top: 122px;
    
@@ -415,16 +547,21 @@ form{
     margin-top: 152px;
    
 }
+
+.redes_cartagena{
+    margin-left: 140px;
+}
+
 .title_ciudades{
     
-   
-    margin-left: 140px;
+
+    margin-left: 130px;
 }
 
 .title_ciudades_cali{
     
 
-    margin-left: 190px;
+    margin-left: 150px;
 }
 
 .title_ciudades_medellin{
@@ -433,7 +570,7 @@ form{
 }
 
 .title_ciudades_cartagena{
-    margin-left: 600px;
+    margin-left: 450px;
 }
 
 .primera_fase{
@@ -484,7 +621,7 @@ form{
 .img_asesor_cartagena{
     width:120px;
     height: 120px;
-    margin-left: 610px;
+    margin-left: 460px;
 
 
 }

@@ -11,15 +11,22 @@ import {ApiService} from'../../services/api.service';
 })
 
 export class HomeComponent implements OnInit {
+  public carros: Listcarros | undefined;
 
-  carros:Listcarros[ ] = [ ];
+  
   constructor(private api:ApiService){}
 
-  ngOnInit():void{
-    /* this.api.getallcars().subscribe(datos=>{
-      console.log(datos);
-    }) */
-    
-  } 
+  async getCars() {
+    await this.api.getallcars().subscribe(data => {
+      this.carros = data; 
+      console.log(data);
+      
+    });
+  }
+
+  ngOnInit(): void {
+    this.getCars();
+  }
+
 
 }

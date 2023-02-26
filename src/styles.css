@@ -1,119 +1,101 @@
 /* You can add global styles to this file, and also import other style files */
-*{
+* {
     padding: 0px;
     margin: 0px;
-    
 
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
 }
 
-
-html{
+html {
     height: 100%;
 }
 
-body{
+body {
     display: flex;
     flex-direction: column;
     width: 100%;
-    min-height: 100%;
-    
+    height: 100vh;
 }
 
 @font-face {
     font-family: "Fontfabric-UniNeueHeavy";
     src: url("/assets/fonts/Fontfabric-UniNeueHeavy.otf");
-  }
+}
 
 @font-face {
     font-family: "Fontfabric-UniNeueBold";
     src: url("/assets/fonts/Fontfabric-UniNeueBold.otf");
-  }
+}
 
-.nav
-{
-    
+.nav {
     width: 100% !important;
     background-color: #ffbc2a;
     height: 82px;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-li{
+li {
     font-family: "Fontfabric-UniNeueHeavy";
     margin-left: 132px;
 }
-/*  li.active {
-    background-color: red;
-} */
- 
- 
-label{
-    font-family: "Fontfabric-UniNeueBold";
 
+
+
+label {
+    font-family: "Fontfabric-UniNeueBold";
 }
 
-h4{
+h4 {
     font-family: "Fontfabric-UniNeueHeavy";
     margin-left: 62px;
 }
 
-
-.footer{
+.footer {
     /* background-color: #C9D2D3; */
     width: 100%;
-    height: auto;       
-    position:absolute;
-    top:1750px; 
-    
-    
-  
- }
+    height: auto;
+    position: absolute;
+    top: 1750px;
+}
 
-
- 
-
-
-.title-footer{
+.title-footer {
     font-style: bold;
 }
-.sidebar{
-   position:absolute; 
-   margin-top:10px;
-   margin-left: 2px;
-   flex-direction: column;
-   width: 210px;
-   height: 1505px;
-   border-radius: 12px;
-   background-color: rgba(0, 0, 0, 0.1);
-   
-  
+
+.sidebar {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 2px;
+    flex-direction: column;
+    width: 210px;
+    height: 1505px;
+    border-radius: 12px;
+    background-color: rgba(0, 0, 0, 0.1);
 }
 
-
-.linea_filtro{
+.linea_filtro {
     width: 200px;
     opacity: 0.8;
     color: #ffbc2a;
 }
+
 .slider {
-    
     width: 200px;
     height: 60px;
 }
 
-#rangeValue{
+#rangeValue {
     font-family: "Fontfabric-UniNeueBold";
 }
 
-.btn-buscar{
+.btn-buscar {
     background-color: #ffc62a;
-    color:#fff;
+    color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -121,7 +103,7 @@ h4{
     height: 32px;
     border-radius: 12px;
     margin-top: 30px;
-    margin-left: 40px; 
+    margin-left: 40px;
     justify-content: center;
     align-items: center;
     cursor: pointer;
@@ -129,262 +111,235 @@ h4{
     font-family: "Fontfabric-UniNeueHeavy";
 }
 
-
-.select{
+.select {
     width: 200px;
     height: 40px;
     border-radius: 12px;
     border-style: none;
     background-color: transparent;
-    
-    
-} 
-.select:focus{ 
+}
+
+.select:focus {
     outline: none !important;
 }
- 
-.name_filtro{
+
+.name_filtro {
     margin-bottom: 12px;
 }
 
-.home{
+.home {
     margin-left: 220px;
     height: 100%;
 }
 
-.container_home{
-
+.container_home {
     margin-left: 20px;
 }
+
 /*About*/
-.title_mision{
+.title_mision {
     text-align: justify;
-   
 }
-.mision{
+
+.mision {
     margin-top: 32px;
 }
-.mision_1{
-    margin-top: 42px;
 
+.mision_1 {
+    margin-top: 42px;
 }
 
-.vision{
-
+.vision {
     margin-top: 132px;
 }
-.imagen_about{
+
+.imagen_about {
     margin-top: 212px;
 }
 
-.img-mision{
+.img-mision {
     height: auto;
     width: 400px;
 }
 
-.about{
+.about {
     margin-top: 152px;
     margin-left: 220px;
     height: 100% !important;
-
 }
 
-.img-2{
-    width:300px;
+.img-2 {
+    width: 300px;
     height: 200px;
-    
 }
 
-.img-1{
-    width:100%;
+.img-1 {
+    width: 100%;
     height: 200px;
-    
 }
 
-
-.relevantes{
+.relevantes {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-left: 150px;
     margin-top: 12px;
     width: 700px;
-    
 }
 
-.aviso{
+.aviso {
     margin-top: 12px;
     width: 1100px;
     height: 250px;
 }
 
-.filtro-select{
+.filtro-select {
     border-radius: 30px;
-    width:60px;
+    width: 60px;
     height: 5px;
     margin-right: 40px;
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
-.banner{
+.banner {
     background-image: url(".././src/assets/img/banner-facilcar.jpg");
     background-repeat: no-repeat;
-    background-size:contain;
+    background-size: contain;
     width: 100% !important;
-    overflow-x: hidden !important;;
-    height:700px; 
-   
-    
+    overflow-x: hidden !important;
+    height: 700px;
 }
 
-.prueba{
-    width:2600px;
+.prueba {
+    width: 2600px;
     height: 2300px;
-
 }
 
-
-
-.btn{
+.btn {
     background-color: #ffc62a;
-    color:#fff;
-    margin-top: 300px;
-    margin-left: 500px;
-    justify-content: center;
-    align-items: center;
-   
-
-}.btn:hover{
-    background-color: #ffc62a;
-    color:#fff;
+    color: #fff;
     margin-top: 300px;
     margin-left: 500px;
     justify-content: center;
     align-items: center;
 }
-.btn-form{
+
+.btn:hover {
+    background-color: #ffc62a;
+    color: #fff;
+    margin-top: 300px;
+    margin-left: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-form {
     background-color: #ffc62a;
     font-weight: bold;
     border-radius: 10px;
     border-color: #fff;
     width: 150px;
     height: 40px;
-    color:#fff;
+    color: #fff;
     margin-top: 30px;
     margin-left: 100px;
     justify-content: center;
     align-items: center;
     font-size: 18px;
-
 }
-.tittle_cf{
+
+.tittle_cf {
     margin-left: -32px;
     font-size: 38px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: "Fontfabric-UniNeueHeavy";
-    
-   
-
 }
-.Quienes_somos{
+
+.Quienes_somos {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
-.items{
+
+.items {
     margin-top: 250px;
 }
 
-li{
+li {
     font-size: 20px;
     font-weight: bold;
 }
-.item_2{
-    color: #ffc62a;
 
+.item_2 {
+    color: #ffc62a;
 }
-form{
+
+form {
     width: 400px;
     height: 500px;
     margin-top: 80px;
     margin-left: 60px;
-   
+
     justify-content: center;
     align-items: center;
 }
-.form-group{
+
+.form-group {
     margin-top: 12px;
     margin-left: 2px;
 }
-.contacto{
+
+.contacto {
     margin-left: 220px;
 }
+
 /*contactenos*/
 
-.rds{
+.rds {
     margin-left: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.contactenos{
+.contactenos {
     border: solid #ffc62a;
     border-radius: 30px;
     width: 500px;
 }
-.redes_sociales{
+
+.redes_sociales {
     margin-top: 80px;
-   
+
     justify-content: center;
     align-items: center;
-    
 }
-.title_redessoc{
-    display:flex;
+
+.title_redessoc {
+    display: flex;
     justify-content: center;
     align-items: center;
     margin: 80px;
     margin-bottom: 19px;
 }
-.city_card{
-    display:flex;
+
+.city_card {
+    display: flex;
     justify-content: center;
     align-items: center;
     margin: 80px;
     margin-top: 29px;
-
 }
-.card-ciudades{
-    display:flex;
+
+.card-ciudades {
+    display: flex;
     justify-content: center;
     align-items: center;
     width: 287px;
-     height: 60px;
-    background: #ffc62a;
-    color: #fff;
-    font-weight: bold;
-    text-align: center;
-    font-size: 18px;
-    padding-top: 12px;
-}
-.filtro
-{
-    width:20px;
-
-}
-.logo-email{
-    width: 20px;
-    height: 20px;
-}
-
-.card-email{
     height: 60px;
     background: #ffc62a;
     color: #fff;
@@ -393,293 +348,339 @@ form{
     font-size: 18px;
     padding-top: 12px;
 }
+
+.filtro {
+    width: 20px;
+}
+
+.logo-email {
+    width: 20px;
+    height: 20px;
+}
+
+.card-email {
+    height: 60px;
+    background: #ffc62a;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 12px;
+}
+
 /*Busqueda*/
-.title_busqueda{
+.title_busqueda {
     margin-top: 22px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: "Fontfabric-UniNeueHeavy";
 }
-.busqueda{
+
+.busqueda {
     margin-left: 220px;
 }
 
-.container{
+.container {
     margin-left: 120px;
 }
-.imgcard{
+
+.imgcard {
     height: 300px;
     width: 100%;
 }
-.card-principal{
+
+.card-principal {
     margin-top: 16px;
     background-color: black;
     border-radius: 12px;
     height: auto !important;
     width: 850px;
 }
-/* .card-titles{
-    
-    font-weight: bold;
-} */
-.linea_nombre{
+
+
+.linea_nombre {
     font-size: 22px;
     color: #000;
-    font-family: "Fontfabric-UniNeueHeavy"; 
-   
+    font-family: "Fontfabric-UniNeueHeavy";
 }
 
-.precio{
+.precio {
     font-size: 18px;
     color: #424141;
-    font-family: "Fontfabric-UniNeueHeavy"; 
-
+    font-family: "Fontfabric-UniNeueHeavy";
 }
 
 /*planes*/
-.planes{
+.planes {
     margin-left: 220px;
 }
 
-.info{
+.info {
     width: 35px;
     height: 45px;
     margin-left: 2px;
 }
 
-.info_1{
+.info_1 {
     width: 35px;
     height: 45px;
     margin-left: -56px;
 }
 
-.info_2{
+.info_2 {
     width: 35px;
     height: 45px;
     margin-left: -116px;
 }
-.info_3{
+
+.info_3 {
     width: 35px;
     height: 45px;
     margin-left: 122px;
 }
 
-.info_4{
+.info_4 {
     width: 35px;
     height: 45px;
     margin-left: -26px;
 }
 
-.info_5{
+.info_5 {
     width: 35px;
     height: 45px;
     margin-left: -176px;
 }
 
-.info_6{
+.info_6 {
     width: 35px;
     height: 45px;
     margin-left: 116px;
 }
 
-.info_7{
+.info_7 {
     width: 35px;
     height: 45px;
     margin-left: -26px;
-    
 }
 
-.info_8{
+.info_8 {
     width: 35px;
     height: 45px;
     margin-left: -163px;
 }
 
-.info_9{
+.info_9 {
     width: 35px;
     height: 45px;
     margin-left: 93px;
 }
 
-.info_10{
+.info_10 {
     width: 35px;
     height: 45px;
     margin-left: -50px;
 }
 
-.info_11{
+.info_11 {
     width: 35px;
     height: 45px;
     margin-left: -183px;
 }
 
-.info_12{
+.info_12 {
     width: 35px;
     height: 45px;
     margin-left: 460px;
 }
 
-.info_13{
+.info_13 {
     width: 35px;
     height: 45px;
     margin-left: -14px;
 }
 
-.info_14{
+.info_14 {
     width: 35px;
     height: 45px;
     margin-left: -270px;
 }
 
-/* .info_15{
-    width: 35px;
-    height: 45px;
-    margin-left: -240px;
-} */
 
-.section_barranquilla{
+.section_barranquilla {
     margin-top: 122px;
-   
 }
 
-.section_bogota{
+.section_bogota {
     margin-top: 152px;
-   
 }
 
-.redes_cartagena{
+.redes_cartagena {
     margin-left: 140px;
 }
 
-.title_ciudades{
-    
-
+.title_ciudades {
     margin-left: 130px;
 }
 
-.title_ciudades_cali{
-    
-
+.title_ciudades_cali {
     margin-left: 150px;
 }
 
-.title_ciudades_medellin{
-
+.title_ciudades_medellin {
     margin-left: 100px;
 }
 
-.title_ciudades_cartagena{
+.title_ciudades_cartagena {
     margin-left: 450px;
 }
 
-.primera_fase{
+.primera_fase {
     color: #000;
     font-family: "Fontfabric-UniNeueHeavy";
-
 }
 
-
-.segunda_frase{
-    color:#ffc62a;
+.segunda_frase {
+    color: #ffc62a;
     font-family: "Fontfabric-UniNeueHeavy";
-   
 }
 
-.city-cali{
+.city-cali {
     margin-left: 62px;
 }
 
-.img_asesor{
-    width:120px;
+.img_asesor {
+    width: 120px;
     height: 120px;
     margin-left: 10px;
-
 }
 
-.img_asesor_cali{
-    width:120px;
+.img_asesor_cali {
+    width: 120px;
     height: 120px;
     margin-left: 120px;
-
 }
 
-.img_asesor_bogota{
-    width:120px;
+.img_asesor_bogota {
+    width: 120px;
     height: 120px;
     margin-left: 120px;
-
 }
 
-.img_asesor_medellin{
-    width:120px;
+.img_asesor_medellin {
+    width: 120px;
     height: 120px;
     margin-left: 90px;
-
 }
 
-.img_asesor_cartagena{
-    width:120px;
+.img_asesor_cartagena {
+    width: 120px;
     height: 120px;
     margin-left: 460px;
-
-
 }
-
 
 /*Responsive*/
 
-@media (max-width: 576px) { 
-    .banner{
-        
-        
-       
-        width: 100%;
-        height:45vh;
-        
+@media (max-width: 576px) {
+    * {
+        padding: 0px;
+        margin: 0px;
+
+        text-decoration: none;
+        list-style: none;
+        box-sizing: border-box;
     }
-    .items{
+
+    /*home*/
+    .tittle_cf {
+        
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "Fontfabric-UniNeueHeavy";
+        font-size: 24px;
+    }
+
+    .container_home {
+        /* margin-left: 2px; */
+        margin-right: 223px;
+    }
+
+    .imgcard {
+        height: 200px;
+        width: 30%;
+    }
+
+    .card-principal {
+        margin-top: 16px;
+        background-color: black;
+        border-radius: 12px;
+        height: auto !important;
+        width: 350px;
+    }
+
+
+    .linea_nombre {
+        font-size: 14px;
+        color: #000;
+        font-family: "Fontfabric-UniNeueHeavy";
+    }
+
+    .precio {
+        font-size: 12px;
+        color: #424141;
+        font-family: "Fontfabric-UniNeueHeavy";
+    }
+
+    .banner {
+        width: 100vw;
+        height: 100vh;
+    }
+    .aviso {
+        margin-top: 12px;
+        width: 100vw;
+        height: 250px;
+    }
+
+    .items {
         margin-top: 50px;
     }
-    
-    .item_1{
+
+    .item_1 {
         font-size: 14px;
         text-align: center;
-       
-
     }
 
-    .item_2{
+    .item_2 {
         color: #ffc62a;
         font-size: 14px;
         text-align: center;
-    
     }
 
-    .slide{
+    .slide {
         margin-left: 10px;
-        width:270px;
+        width: 270px;
         height: 180px;
         display: flex;
         justify-content: center;
         align-items: center;
         opacity: 0;
-          
     }
-   
-    
-    .btn{
+
+    .btn {
         background-color: #ffc62a;
-        color:#fff;
+        color: #fff;
         margin-top: 30px;
         margin-left: 30px;
         justify-content: center;
         align-items: center;
         font-size: 12px;
-    
-    }.btn:hover{
+    }
+
+    .btn:hover {
         background-color: #ffc62a;
-        color:#fff;
+        color: #fff;
         margin-top: 10px;
         margin-left: 10px;
         justify-content: center;
@@ -687,23 +688,22 @@ form{
         font-size: 12px;
     }
 
-    .btn-form{
+    .btn-form {
         background-color: #ffc62a;
-        color:#fff;
+        color: #fff;
         margin-top: 30px;
         margin-left: 30px;
         justify-content: center;
         align-items: center;
         font-size: 16px;
-
     }
 
-    .logo-email{
+    .logo-email {
         width: 16px;
         height: 16px;
     }
-    
-    .card-email{
+
+    .card-email {
         height: 30px;
         background: #ffc62a;
         color: #fff;
@@ -712,6 +712,60 @@ form{
         font-size: 12px;
         padding-top: 12px;
     }
-    
+}
 
- }
+@media (max-width: 768px) {
+    * {
+        padding: 0px;
+        margin: 0px;
+
+        text-decoration: none;
+        list-style: none;
+        box-sizing: border-box;
+    }
+
+    /*home*/
+    .tittle_cf {
+        margin-left: 82px;
+        font-size: 38px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "Fontfabric-UniNeueHeavy";
+        font-size: 26px;
+    }
+
+    .busqueda {
+        margin-left: 120px
+    }
+
+    .container_home {
+        margin-left: 0px;
+    }
+
+    .imgcard {
+        height: 200px;
+        width: 100%;
+    }
+
+    .card-principal {
+        margin-top: 16px;
+        background-color: black;
+        border-radius: 12px;
+        height: auto !important;
+        width: 450px;
+    }
+
+
+    .linea_nombre {
+        font-size: 18px;
+        color: #000;
+        font-family: "Fontfabric-UniNeueHeavy";
+    }
+
+    .precio {
+        font-size: 16px;
+        color: #424141;
+        font-family: "Fontfabric-UniNeueHeavy";
+    }
+}

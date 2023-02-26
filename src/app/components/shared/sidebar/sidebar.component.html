@@ -1,76 +1,77 @@
 <div class="sidebar">
-    <div class="filtro">
-      <h4>Filtrar</h4>
-      <div class="form-group" style="margin-top:42px">
-        <label for="exampleFormControlSelect1 ">Ubicacion</label>
-        
-        <div class="mb-2">
-          <select class="select" id="exampleFormControlSelect1">
-            <option>Bogotá</option>
-            <option>Cali</option>
-            <option>Medellín</option>
-            <option>Barranquilla</option>
-            <option>Cartagena</option>
-          </select>
-        </div>
-      
-        <hr class="linea_filtro">
-        
-        <label for="exampleFormControlSelect1"  >Marca</label>
-        
-        <div class="mb-3">
-          <select class="select" >
-            <option>kia</option>
-            <option>hyundai</option>
-            <option>chevrolet</option>
-            <option>hyundai</option>
-            <option>honda</option>
-          </select>
+  <div class="filtro">
+    <h4>Filtrar</h4>
+    <div class="form-group" style="margin-top: 42px">
+      <label for="exampleFormControlSelect1 ">Ubicacion</label>
 
-        </div>
-        <hr class="linea_filtro">
-        
-        <label for="exampleFormControlSelect1" class="name_filtro">Linea</label>
-        
-        <div class="mb-3">
-          <select class="select" id="exampleFormControlSelect1">
-            <option>2014</option>
-            <option>2015</option>
-            <option>2016</option>
-            <option>2017</option>
-            <option>2018</option>
-          </select>
-
-        </div>
-        <hr class="linea_filtro">
-        
-        <label for="exampleFormControlSelect1" class="name_filtro">Año</label>
-       
-        <div class="mb-3">
-          <select class="select" id="exampleFormControlSelect1">
-            <option>2014</option>
-            <option>2015</option>
-            <option>2016</option>
-            <option>2017</option>
-            <option>2018</option>
-          </select>
-        </div>
-        <hr class="linea_filtro">
-        
-        <label for="exampleFormControlSelect1" >Precio</label>
-        <hr class="linea_filtro">
-        <div class="mb-3">
-          
-            <input type="range" class="slider" min="150000" max="200000" value="100" oninput="rangeValue.innerText = this.value">
-            $<p id="rangeValue">150000</p>
-            
-      
-
-        </div>
-     
+      <div class="mb-2">
+        <select class="select" id="exampleFormControlSelect1">
+          <option>Bogotá</option>
+          <option>Cali</option>
+          <option>Medellín</option>
+          <option>Barranquilla</option>
+          <option>Cartagena</option>
+        </select>
       </div>
-      <a href="http://localhost:4200/busqueda"><div class="btn-buscar">Buscar</div></a>
+
+      <hr class="linea_filtro" />
+
+      <label for="exampleFormControlSelect1">Marca</label>
+
+      <div class="mb-3">
+        <select class="select">
+          <option>kia</option>
+          <option>hyundai</option>
+          <option>chevrolet</option>
+          <option>hyundai</option>
+          <option>honda</option>
+        </select>
+      </div>
+      <hr class="linea_filtro" />
+
+      <label for="exampleFormControlSelect1" class="name_filtro">Linea</label>
+
+      <div class="mb-3">
+        <select class="select" id="exampleFormControlSelect1">
+          <option>2014</option>
+          <option>2015</option>
+          <option>2016</option>
+          <option>2017</option>
+          <option>2018</option>
+        </select>
+      </div>
+      <hr class="linea_filtro" />
+
+      <label for="exampleFormControlSelect1" class="name_filtro">Año</label>
+
+      <div class="mb-3">
+        <select class="select" id="exampleFormControlSelect1">
+          <option>2014</option>
+          <option>2015</option>
+          <option>2016</option>
+          <option>2017</option>
+          <option>2018</option>
+        </select>
+      </div>
+      <hr class="linea_filtro" />
+
+      <label for="exampleFormControlSelect1">Precio</label>
+      <hr class="linea_filtro" />
+      <div class="mb-3">
+        <input
+          type="range"
+          class="slider"
+          min="150000"
+          max="200000"
+          value="100"
+          oninput="rangeValue.innerText = this.value"
+        />
+        $
+        <p id="rangeValue">150000</p>
+      </div>
     </div>
-    
-  
+    <a href="http://localhost:4200/busqueda"
+      ><div class="btn-buscar">Buscar</div></a
+    >
   </div>
+</div>

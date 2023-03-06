@@ -1,109 +1,687 @@
 /* You can add global styles to this file, and also import other style files */
 * {
-    padding: 0px;
-    margin: 0px;
-    text-decoration: none;
-    list-style: none;
-    box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
 }
 @font-face {
-    font-family: "Fontfabric-UniNeueHeavy";
-    src: url("/assets/fonts/Fontfabric-UniNeueHeavy.otf");
+  font-family: "Fontfabric-UniNeueHeavy";
+  src: url("/assets/fonts/Fontfabric-UniNeueHeavy.otf");
 }
 
 @font-face {
-    font-family: "Fontfabric-UniNeueBold";
-    src: url("/assets/fonts/Fontfabric-UniNeueBold.otf");
+  font-family: "Fontfabric-UniNeueBold";
+  src: url("/assets/fonts/Fontfabric-UniNeueBold.otf");
 }
 
- html {
-  
-    width: 100vw;
-}
-
+html,
 body {
-  /*   display: grid;
-    flex-direction: column; */
-    margin:0;
-    width: 100vw;
-    min-height: 50vw;
-
-} 
-
-.contain{
-    /* margin-left: 520px; */
-    margin-left: 220px;
-    height: fit-content;
+  width: 100vw !important;
+  margin: 0;
+  min-height: 50vw;
 }
 
-.nav {
-    width: 100% !important;
-    background-color: #ffbc2a;
-    height: 82px;
+.contain {
+  /* margin-left: 520px; */
+
+  margin-left: 70%;
+  width: 100vw;
+}
+
+.navb {
+  width: 100% ;
+  background-color: #ffbc2a;
+  height: 95px;
+  margin-top: -10px;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 li {
-    font-family: "Fontfabric-UniNeueHeavy";
-    margin-left: 132px;
+  font-family: "Fontfabric-UniNeueHeavy";
+  margin-left: 132px;
 }
 
-
-
 label {
-    font-family: "Fontfabric-UniNeueBold";
+  font-family: "Fontfabric-UniNeueBold";
 }
 
 h4 {
-    font-family: "Fontfabric-UniNeueHeavy";
-    margin-left: 62px;
+  font-family: "Fontfabric-UniNeueHeavy";
+  margin-left: 62px;
 }
 
 .footer {
-    /* background-color: #C9D2D3; */
-    width: 100%;
-    height: auto;
-    /* height: auto;
+  /* background-color: #C9D2D3; */
+  width: 100vw;
+  height: auto;
+  /* height: auto;
     position: absolute;
     top:50vh; */
-    bottom: 0px;
+  bottom: 0px;
 }
 
 .title-footer {
-    font-family: "Fontfabric-UniNeueBold";
+  font-family: "Fontfabric-UniNeueBold";
 }
 /*inicio sidebar Desktop*/
 
 .sidebar {
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 2px;
+  flex-direction: column;
+  width: 210px;
+  height: 900px;
+  border-radius: 12px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.linea_filtro {
+  width: 200px;
+  opacity: 0.8;
+  color: #ffbc2a;
+}
+
+.slider {
+  width: 200px;
+  height: 60px;
+}
+
+#rangeValue {
+  font-family: "Fontfabric-UniNeueBold";
+}
+
+.btn-buscar {
+  background-color: #ffc62a;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 32px;
+  border-radius: 12px;
+  margin-top: 30px;
+  margin-left: 40px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: #424141;
+  font-family: "Fontfabric-UniNeueHeavy";
+}
+
+.select {
+  width: 200px;
+  height: 40px;
+  border-radius: 12px;
+  border-style: none;
+  background-color: transparent;
+}
+
+.select:focus {
+  outline: none !important;
+}
+/*fin sidebar Desktop*/
+
+.name_filtro {
+  margin-bottom: 12px;
+}
+
+.home {
+  margin-left: 220px;
+  height: 100%;
+}
+
+.container_home {
+  margin-left: 20px;
+}
+.img_publicidad {
+  width: 1%;
+}
+
+/*About*/
+.title_mision {
+  text-align: justify;
+}
+
+.mision {
+  margin-top: 32px;
+}
+
+.mision_1 {
+  margin-top: 42px;
+}
+
+.vision {
+  margin-top: 132px;
+}
+
+.imagen_about {
+  margin-top: 212px;
+}
+
+.img-mision {
+  height: auto;
+  width: 400px;
+}
+
+.about {
+  margin-top: 152px;
+  margin-left: 220px;
+  height: 100% !important;
+}
+
+.img-2 {
+  width: 300px;
+  height: 200px;
+}
+
+.img-1 {
+  width: 100%;
+  height: 200px;
+}
+
+.relevantes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 150px;
+  margin-top: 12px;
+  width: 700px;
+}
+
+.aviso {
+  margin-top: 12px;
+  width: 1100px;
+  height: 250px;
+}
+
+.filtro-select {
+  border-radius: 30px;
+  width: 60px;
+  height: 5px;
+  margin-right: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner {
+  background-image: url(".././src/assets/img/banner-facilcar.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100vw;
+  overflow-x: hidden !important; 
+  height: 600px;
+}
+
+.prueba {
+  width: 2600px;
+  height: 2300px;
+}
+
+.btn {
+  background-color: #ffc62a;
+  color: #fff;
+  margin-top: 300px;
+  margin-left: 500px;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn:hover {
+  background-color: #ffc62a;
+  color: #fff;
+  margin-top: 300px;
+  margin-left: 500px;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-form {
+  background-color: #ffc62a;
+  font-weight: bold;
+  border-radius: 10px;
+  border-color: #fff;
+  width: 150px;
+  height: 40px;
+  color: #fff;
+  margin-top: 30px;
+  margin-left: 100px;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}
+
+.tittle_cf {
+  margin-left: -32px;
+  font-size: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Fontfabric-UniNeueHeavy";
+}
+
+.Quienes_somos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.items {
+  margin-top: 250px;
+}
+
+li {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.item_2 {
+  color: #ffc62a;
+}
+
+form {
+  width: 400px;
+  height: 500px;
+  margin-top: 80px;
+  margin-left: 60px;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.form-group {
+  margin-top: 12px;
+  margin-left: 2px;
+}
+
+.contacto {
+  margin-left: 220px;
+  height: fit-content;
+  margin-bottom: 0%;
+  /* height: 10vh; */
+}
+
+/*contactenos*/
+
+.rds {
+  margin-left: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.subtitulo_form {
+  margin-top: -60px;
+  margin-left: 62px;
+}
+
+.contactenos {
+  margin-left: 32px;
+  border: solid #ffc62a;
+  border-radius: 30px;
+  width: 50%;
+  height: 100vh;
+}
+
+.title_contactenos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -100px;
+  font-family: "Fontfabric-UniNeueHeavy";
+  font-size: 34px;
+}
+
+.selectcontacto {
+  border-radius: 8px;
+  opacity: 1;
+  width: 400px;
+  height: 38px;
+}
+
+.redes_sociales {
+  margin-top: 80px;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.title_redessoc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 80px;
+  margin-bottom: 19px;
+}
+
+.city_card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 80px;
+  margin-top: 29px;
+}
+
+.card-ciudades {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 287px;
+  height: 60px;
+  background: #ffc62a;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  font-size: 18px;
+  padding-top: 12px;
+}
+
+.filtro {
+  width: 20px;
+}
+
+.logo-email {
+  width: 20px;
+  height: 20px;
+}
+
+.card-email {
+  height: 60px;
+  background: #ffc62a;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  font-size: 18px;
+  padding-top: 12px;
+}
+.card-contactenos {
+  width: 18rem;
+  border-color: #ffc62a;
+}
+
+/*Busqueda*/
+.title_busqueda {
+  margin-top: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Fontfabric-UniNeueHeavy";
+}
+
+.busqueda {
+  margin-left: 220px;
+}
+
+.container {
+  margin-left: 220px;
+}
+
+.imgcard {
+  height: 300px;
+  width: 100%;
+}
+
+.card-principal {
+  margin-top: 16px;
+  background-color: black;
+  border-radius: 12px;
+  height: auto !important;
+  width: 850px;
+}
+
+.linea_nombre {
+  font-size: 22px;
+  color: #000;
+  font-family: "Fontfabric-UniNeueHeavy";
+}
+
+.precio {
+  font-size: 18px;
+  color: #424141;
+  font-family: "Fontfabric-UniNeueHeavy";
+}
+
+/*planes*/
+.planes {
+  margin-left: 220px;
+}
+
+.info {
+  width: 35px;
+  height: 45px;
+  margin-left: 2px;
+}
+
+.info_1 {
+  width: 35px;
+  height: 45px;
+  margin-left: -56px;
+}
+
+.info_2 {
+  width: 35px;
+  height: 45px;
+  margin-left: -116px;
+}
+
+.info_3 {
+  width: 35px;
+  height: 45px;
+  margin-left: 122px;
+}
+
+.info_4 {
+  width: 35px;
+  height: 45px;
+  margin-left: -26px;
+}
+
+.info_5 {
+  width: 35px;
+  height: 45px;
+  margin-left: -176px;
+}
+
+.info_6 {
+  width: 35px;
+  height: 45px;
+  margin-left: 116px;
+}
+
+.info_7 {
+  width: 35px;
+  height: 45px;
+  margin-left: -26px;
+}
+
+.info_8 {
+  width: 35px;
+  height: 45px;
+  margin-left: -163px;
+}
+
+.info_9 {
+  width: 35px;
+  height: 45px;
+  margin-left: 93px;
+}
+
+.info_10 {
+  width: 35px;
+  height: 45px;
+  margin-left: -50px;
+}
+
+.info_11 {
+  width: 35px;
+  height: 45px;
+  margin-left: -183px;
+}
+
+.info_12 {
+  width: 35px;
+  height: 45px;
+  margin-left: 460px;
+}
+
+.info_13 {
+  width: 35px;
+  height: 45px;
+  margin-left: -14px;
+}
+
+.info_14 {
+  width: 35px;
+  height: 45px;
+  margin-left: -270px;
+}
+
+.section_barranquilla {
+  margin-top: 122px;
+}
+
+.section_bogota {
+  margin-top: 152px;
+}
+
+.redes_cartagena {
+  margin-left: 140px;
+}
+
+.title_ciudades {
+  margin-left: 130px;
+}
+
+.title_ciudades_cali {
+  margin-left: 150px;
+}
+
+.title_ciudades_medellin {
+  margin-left: 100px;
+}
+
+.title_ciudades_cartagena {
+  margin-left: 450px;
+}
+
+.primera_fase {
+  color: #000;
+  font-family: "Fontfabric-UniNeueHeavy";
+}
+
+.segunda_frase {
+  color: #ffc62a;
+  font-family: "Fontfabric-UniNeueHeavy";
+}
+
+.city-cali {
+  margin-left: 62px;
+}
+
+.img_asesor {
+  width: 120px;
+  height: 120px;
+  margin-left: 10px;
+}
+
+.img_asesor_cali {
+  width: 120px;
+  height: 120px;
+  margin-left: 120px;
+}
+
+.img_asesor_bogota {
+  width: 120px;
+  height: 120px;
+  margin-left: 120px;
+}
+
+.img_asesor_medellin {
+  width: 120px;
+  height: 120px;
+  margin-left: 90px;
+}
+
+.img_asesor_cartagena {
+  width: 120px;
+  height: 120px;
+  margin-left: 460px;
+}
+
+/*Responsive*/
+
+@media (max-width: 768px) {
+  * {
+    padding: 0px;
+    margin: 0px;
+  }
+  p {
+    font-size: 14px;
+  }
+  .navb {
+    width: 100%;
+    background-color: #ffbc2a;
+    height: 95px;
+    margin-top: -10px;
+  }
+  .logo-image img {
+    width: 129px;
+	height: 32px;
+}
+
+  .banner {
+    width: 60vw;
+  }
+
+  .dropdown-item {
+    color: #000;
+  }
+  .container {
+    margin-left: 150px;
+    margin-top: 0px;
+    width: 10vw;
+  }
+
+  .footer {
+    width: 100%;
+    height: auto;
+    bottom: 0px;
+  }
+  /*inicio sidebar mobile*/
+
+  .sidebar {
     position: absolute;
     margin-top: 10px;
     margin-left: 2px;
     flex-direction: column;
-    width: 210px;
+    width: 160px;
     height: 1000px;
     border-radius: 12px;
     background-color: rgba(0, 0, 0, 0.1);
-}
+  }
 
-.linea_filtro {
-    width: 200px;
+  .linea_filtro {
+    width: 150px;
     opacity: 0.8;
     color: #ffbc2a;
-}
+  }
 
-.slider {
-    width: 200px;
+  .slider {
+    width: 160px;
     height: 60px;
-}
+  }
 
-#rangeValue {
+  #rangeValue {
     font-family: "Fontfabric-UniNeueBold";
-}
+  }
 
-.btn-buscar {
+  .btn-buscar {
     background-color: #ffc62a;
     color: #fff;
     display: flex;
@@ -113,244 +691,211 @@ h4 {
     height: 32px;
     border-radius: 12px;
     margin-top: 30px;
-    margin-left: 40px;
+    margin-left: 20px;
     justify-content: center;
     align-items: center;
     cursor: pointer;
     box-shadow: #424141;
     font-family: "Fontfabric-UniNeueHeavy";
-}
+  }
 
-.select {
-    width: 200px;
+  .select {
+    width: 160px;
     height: 40px;
     border-radius: 12px;
     border-style: none;
     background-color: transparent;
-}
+  }
 
-.select:focus {
+  .select:focus {
     outline: none !important;
-}
-/*fin sidebar Desktop*/
+  }
+  /*fin sidebar Mobile*/
 
-.name_filtro {
-    margin-bottom: 12px;
-}
+  /*home*/
+  home {
+    margin-left: 160px;
+  }
+  .tittle_cf {
+    margin-top: -50px;
+    margin-left: -2px;
+    font-family: "Fontfabric-UniNeueHeavy";
+    font-size: 20px;
+  }
 
-.home {
-    margin-left: 220px;
-    height: 100%;
-}
+  .container_home {
+    /* margin-left: 2px; */
+    /* margin-top: -200px; */
+    margin-right: 310px;
+  }
 
-.container_home {
-    margin-left: 20px;
-}
-
-/*About*/
-.title_mision {
-    text-align: justify;
-}
-
-.mision {
-    margin-top: 32px;
-}
-
-.mision_1 {
-    margin-top: 42px;
-}
-
-.vision {
-    margin-top: 132px;
-}
-
-.imagen_about {
-    margin-top: 212px;
-}
-
-.img-mision {
-    height: auto;
-    width: 400px;
-}
-
-.about {
-    margin-top: 152px;
-    margin-left: 220px;
-    height: 100% !important;
-}
-
-.img-2 {
-    width: 300px;
-    height: 200px;
-}
-
-.img-1 {
+  .imgcard {
+    height: 100px;
     width: 100%;
-    height: 200px;
-}
+  }
 
-.relevantes {
+  .card-principal {
+    margin-top: 16px;
+    background-color: black;
+    border-radius: 12px;
+    height: auto !important;
+    width: 350px;
+  }
+
+  .linea_nombre {
+    font-size: 10px;
+    color: #000;
+    font-family: "Fontfabric-UniNeueHeavy";
+  }
+
+  .precio {
+    font-size: 12px;
+    color: #424141;
+    font-family: "Fontfabric-UniNeueHeavy";
+  }
+
+  .aviso {
+    margin-top: 62px;
+    width: 60vw;
+    height: 150px;
+  }
+
+  .items {
+    margin-top: 50px;
+  }
+
+  .item_1 {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .item_2 {
+    color: #ffc62a;
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .slide {
+    margin-left: 10px;
+    width: 270px;
+    height: 180px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 150px;
-    margin-top: 12px;
-    width: 700px;
-}
+    opacity: 0;
+  }
 
-.aviso {
-    margin-top: 12px;
-    width: 1100px;
-    height: 250px;
-}
-
-.filtro-select {
-    border-radius: 30px;
-    width: 60px;
-    height: 5px;
-    margin-right: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.banner {
-    background-image: url(".././src/assets/img/banner-facilcar.jpg");
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 100% !important;
-    overflow-x: hidden !important;
-    height: 700px;
-}
-
-.prueba {
-    width: 2600px;
-    height: 2300px;
-}
-
-.btn {
+  .btn {
     background-color: #ffc62a;
-    color: #fff;
-    margin-top: 300px;
-    margin-left: 500px;
-    justify-content: center;
-    align-items: center;
-}
-
-.btn:hover {
-    background-color: #ffc62a;
-    color: #fff;
-    margin-top: 300px;
-    margin-left: 500px;
-    justify-content: center;
-    align-items: center;
-}
-
-.btn-form {
-    background-color: #ffc62a;
-    font-weight: bold;
-    border-radius: 10px;
-    border-color: #fff;
-    width: 150px;
-    height: 40px;
     color: #fff;
     margin-top: 30px;
-    margin-left: 100px;
+    margin-left: 30px;
     justify-content: center;
     align-items: center;
-    font-size: 18px;
-}
+    font-size: 12px;
+  }
 
-.tittle_cf {
-    margin-left: -32px;
-    font-size: 38px;
-    display: flex;
+  .btn:hover {
+    background-color: #ffc62a;
+    color: #fff;
+    margin-top: 10px;
+    margin-left: 10px;
     justify-content: center;
     align-items: center;
-    font-family: "Fontfabric-UniNeueHeavy";
-}
+    font-size: 12px;
+  }
 
-.Quienes_somos {
-    display: flex;
+  .btn-form {
+    background-color: #ffc62a;
+    color: #fff;
+    margin-top: 30px;
+    margin-left: 10px;
     justify-content: center;
     align-items: center;
-}
+    font-size: 16px;
+  }
 
-.items {
-    margin-top: 250px;
-}
+  .logo-email {
+    width: 16px;
+    height: 16px;
+  }
 
-li {
-    font-size: 20px;
+  .card-email {
+    height: 30px;
+    background: #ffc62a;
+    color: #fff;
     font-weight: bold;
-}
+    text-align: center;
+    font-size: 12px;
+    padding-top: 12px;
+  }
+  /*about*/
 
-.item_2 {
-    color: #ffc62a;
-}
-
-form {
-    width: 400px;
-    height: 500px;
-    margin-top: 80px;
-    margin-left: 60px;
-
-    justify-content: center;
-    align-items: center;
-}
-
-.form-group {
-    margin-top: 12px;
-    margin-left: 2px;
-}
-
-.contacto {
-    margin-left: 220px;
-    height: fit-content;
-    margin-bottom: 0%;
-    /* height: 10vh; */
-}
-
-/*contactenos*/
-
-.rds {
-    margin-left: 200px;
+  .img-mision {
+    height: auto;
+    width: 250px;
+  }
+  /*contactenos*/
+  .title_contactenos {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: -102px;
+    font-family: "Fontfabric-UniNeueHeavy";
+    font-size: 24px;
+  }
+ 
+
+.selectcontacto{
+    border-radius: 8px;
+    width:210px;
+    height: 38px;
 }
 
-.contactenos {
+  .form-control {
+    margin-left:2px;
+    margin-top: 0px;
+    width: 200px;
+  }
+
+  .rds {
+    margin-left: -70px;
+  }
+
+  .contactenos {
+    margin-left: -22px;
     border: solid #ffc62a;
     border-radius: 30px;
-    width: 500px;
-    height: 100vh;
-}
+    width: 120px;
+    height: 430px;
+  }
 
-.redes_sociales {
+  .form-label {
+    font-size: 16px;
+    margin-left: 10px;
+  }
+
+  .redes_sociales {
     margin-top: 80px;
 
     justify-content: center;
     align-items: center;
-}
+  }
 
-.title_redessoc {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 80px;
+  .title_redessoc {
+    margin-left: -10px;
     margin-bottom: 19px;
-}
+  }
 
-.city_card {
+  .city_card {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 80px;
     margin-top: 29px;
-}
+  }
 
-.card-ciudades {
+  .card-ciudades {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -362,18 +907,18 @@ form {
     text-align: center;
     font-size: 18px;
     padding-top: 12px;
-}
+  }
 
-.filtro {
+  .filtro {
     width: 20px;
-}
+  }
 
-.logo-email {
+  .logo-email {
     width: 20px;
     height: 20px;
-}
+  }
 
-.card-email {
+  .card-email {
     height: 60px;
     background: #ffc62a;
     color: #fff;
@@ -381,469 +926,32 @@ form {
     text-align: center;
     font-size: 18px;
     padding-top: 12px;
-}
+  }
 
-/*Busqueda*/
-.title_busqueda {
-    margin-top: 22px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: "Fontfabric-UniNeueHeavy";
-}
+  .card-contactenos {
+    width: 14rem;
+    border-color: #ffc62a;
+  }
 
-.busqueda {
-    margin-left: 220px;
-}
-
-.container {
-    margin-left: 120px;
-}
-
-.imgcard {
-    height: 300px;
-    width: 100%;
-}
-
-.card-principal {
-    margin-top: 16px;
-    background-color: black;
-    border-radius: 12px;
-    height: auto !important;
-    width: 850px;
-}
-
-
-.linea_nombre {
-    font-size: 22px;
-    color: #000;
-    font-family: "Fontfabric-UniNeueHeavy";
-}
-
-.precio {
-    font-size: 18px;
-    color: #424141;
-    font-family: "Fontfabric-UniNeueHeavy";
-}
-
-/*planes*/
-.planes {
-    margin-left: 220px;
-}
-
-.info {
-    width: 35px;
-    height: 45px;
-    margin-left: 2px;
-}
-
-.info_1 {
-    width: 35px;
-    height: 45px;
-    margin-left: -56px;
-}
-
-.info_2 {
-    width: 35px;
-    height: 45px;
-    margin-left: -116px;
-}
-
-.info_3 {
-    width: 35px;
-    height: 45px;
-    margin-left: 122px;
-}
-
-.info_4 {
-    width: 35px;
-    height: 45px;
-    margin-left: -26px;
-}
-
-.info_5 {
-    width: 35px;
-    height: 45px;
-    margin-left: -176px;
-}
-
-.info_6 {
-    width: 35px;
-    height: 45px;
-    margin-left: 116px;
-}
-
-.info_7 {
-    width: 35px;
-    height: 45px;
-    margin-left: -26px;
-}
-
-.info_8 {
-    width: 35px;
-    height: 45px;
-    margin-left: -163px;
-}
-
-.info_9 {
-    width: 35px;
-    height: 45px;
-    margin-left: 93px;
-}
-
-.info_10 {
-    width: 35px;
-    height: 45px;
-    margin-left: -50px;
-}
-
-.info_11 {
-    width: 35px;
-    height: 45px;
-    margin-left: -183px;
-}
-
-.info_12 {
-    width: 35px;
-    height: 45px;
-    margin-left: 460px;
-}
-
-.info_13 {
-    width: 35px;
-    height: 45px;
-    margin-left: -14px;
-}
-
-.info_14 {
-    width: 35px;
-    height: 45px;
-    margin-left: -270px;
-}
-
-
-.section_barranquilla {
-    margin-top: 122px;
-}
-
-.section_bogota {
-    margin-top: 152px;
-}
-
-.redes_cartagena {
-    margin-left: 140px;
-}
-
-.title_ciudades {
-    margin-left: 130px;
-}
-
-.title_ciudades_cali {
-    margin-left: 150px;
-}
-
-.title_ciudades_medellin {
-    margin-left: 100px;
-}
-
-.title_ciudades_cartagena {
-    margin-left: 450px;
-}
-
-.primera_fase {
-    color: #000;
-    font-family: "Fontfabric-UniNeueHeavy";
-}
-
-.segunda_frase {
-    color: #ffc62a;
-    font-family: "Fontfabric-UniNeueHeavy";
-}
-
-.city-cali {
-    margin-left: 62px;
-}
-
-.img_asesor {
-    width: 120px;
+  .cont_redes {
+    width: 50px;
     height: 120px;
-    margin-left: 10px;
+  }
 }
 
-.img_asesor_cali {
-    width: 120px;
-    height: 120px;
-    margin-left: 120px;
-}
-
-.img_asesor_bogota {
-    width: 120px;
-    height: 120px;
-    margin-left: 120px;
-}
-
-.img_asesor_medellin {
-    width: 120px;
-    height: 120px;
-    margin-left: 90px;
-}
-
-.img_asesor_cartagena {
-    width: 120px;
-    height: 120px;
-    margin-left: 460px;
-}
-
-/*Responsive*/
-
-@media (max-width: 576px) {
+/* @media (max-width: 768px) {
     * {
         padding: 0px;
         margin: 0px;
     
-        text-decoration: none;
-        list-style: none;
-        box-sizing: border-box;
     }
-    
-
-    .nav {
-        width: 100vw;
-        background-color: #ffbc2a;
-        height: 92px;
-    }
-    
-    .dropdown-item
-    {
-        color:#000;
-    }
-
-    .footer {
-        /* background-color: #C9D2D3; */
-   
-            /* background-color: #C9D2D3; */
-            width: 100%;
-            height: auto;
-            /* height: auto;
-            position: absolute;
-            top:50vh; */
-            bottom: 0px;
-        
-        
-        
-    }
-    /*inicio sidebar mobile*/
-
-.sidebar {
-    position: absolute;
-    margin-top: 10px;
-    margin-left: 2px;
-    flex-direction: column;
-    width: 180px;
-    height: 1000px;
-    border-radius: 12px;
-    background-color: rgba(0, 0, 0, 0.1);
-}
-
-.linea_filtro {
-    width: 170px;
-    opacity: 0.8;
-    color: #ffbc2a;
-}
-
-.slider {
-    width: 160px;
-    height: 60px;
-}
-
-#rangeValue {
-    font-family: "Fontfabric-UniNeueBold";
-}
-
-.btn-buscar {
-    background-color: #ffc62a;
-    color: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 120px;
-    height: 32px;
-    border-radius: 12px;
-    margin-top: 30px;
-    margin-left: 20px;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    box-shadow: #424141;
-    font-family: "Fontfabric-UniNeueHeavy";
-}
-
-.select {
-    width: 160px;
-    height: 40px;
-    border-radius: 12px;
-    border-style: none;
-    background-color: transparent;
-}
-
-.select:focus {
-    outline: none !important;
-}
-/*fin sidebar Mobile*/
-
-    /*home*/
-    home{
-        margin-left: 160px;
-    }
-    .tittle_cf {
-        
-        margin-top: -350px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-family: "Fontfabric-UniNeueHeavy";
-        font-size: 24px;
-    }
-
-    .container_home {
-        /* margin-left: 2px; */
-        /* margin-top: -200px; */
-        margin-right: 403px;
-    }
-
-    .imgcard {
-        height: 100px;
-        width: 100%;
-    }
-
-    .card-principal {
-        margin-top: 16px;
-        background-color: black;
-        border-radius: 12px;
-        height: auto !important;
-        width: 350px;
-    }
-
-
-    .linea_nombre {
-        font-size: 10px;
-        color: #000;
-        font-family: "Fontfabric-UniNeueHeavy";
-    }
-
-    .precio {
-        font-size: 12px;
-        color: #424141;
-        font-family: "Fontfabric-UniNeueHeavy";
-    }
-
-    .banner {
-        width: 100vw;
-        height: 100vh;
-    }
-    .aviso {
-        margin-top: 62px;
-        width: 60vw;
-        height: 150px;
-    }
-
-    .items {
-        margin-top: 50px;
-    }
-
-    .item_1 {
-        font-size: 14px;
-        text-align: center;
-    }
-
-    .item_2 {
-        color: #ffc62a;
-        font-size: 14px;
-        text-align: center;
-    }
-
-    .slide {
-        margin-left: 10px;
-        width: 270px;
-        height: 180px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        opacity: 0;
-    }
-
-    .btn {
-        background-color: #ffc62a;
-        color: #fff;
-        margin-top: 30px;
-        margin-left: 30px;
-        justify-content: center;
-        align-items: center;
-        font-size: 12px;
-    }
-
-    .btn:hover {
-        background-color: #ffc62a;
-        color: #fff;
-        margin-top: 10px;
-        margin-left: 10px;
-        justify-content: center;
-        align-items: center;
-        font-size: 12px;
-    }
-
-    .btn-form {
-        background-color: #ffc62a;
-        color: #fff;
-        margin-top: 30px;
-        margin-left: 30px;
-        justify-content: center;
-        align-items: center;
-        font-size: 16px;
-    }
-
-    .logo-email {
-        width: 16px;
-        height: 16px;
-    }
-
-    .card-email {
-        height: 30px;
-        background: #ffc62a;
-        color: #fff;
-        font-weight: bold;
-        text-align: center;
-        font-size: 12px;
-        padding-top: 12px;
-    }
-}
-
-@media (max-width: 768px) {
-    * {
-        padding: 0px;
-        margin: 0px;
-    
-        text-decoration: none;
-        list-style: none;
-        box-sizing: border-box;
-    }
-    .nav {
+     .nav {
         width: 100% !important;
         background-color: #ffbc2a;
         height: 92px;
-    }
+    } 
 
-    /*home*/
-    .tittle_cf {
-        margin-left: 82px;
-        font-size: 38px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-family: "Fontfabric-UniNeueHeavy";
-        font-size: 26px;
-    }
-
+   
     .busqueda {
         margin-left: 120px
     }
@@ -858,4 +966,4 @@ form {
 
 
    
-}
+} */

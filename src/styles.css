@@ -80,6 +80,38 @@ h4 {
   border-radius: 12px;
   background-color: rgba(0, 0, 0, 0.1);
 }
+.form-group{
+  position: relative;
+    
+}
+
+.fa-solid{
+  position:absolute;
+  left: 170px;
+  top:6px;
+  color:#ffc62a;
+  font-size: 20px;
+  z-index: 999;
+ 
+}
+
+.search{
+  border-color: #ffc62a;
+  width:200px;
+  height: 35px;
+  border-radius: 12px;
+  border: 0;
+  opacity: 0.5;
+
+}.search:hover{
+  
+  width:200px;
+  height: 35px;
+  border-radius: 12px;
+  border-style: none;
+  opacity: 0.5;
+
+}
 
 .linea_filtro {
   width: 200px;
@@ -140,10 +172,29 @@ h4 {
   margin-left: 20px;
 }
 .img_publicidad {
-  width: 1%;
+  width: 50%;
+  height: 220px;
+  margin-left: -820px;
 }
 
 /*About*/
+.item_amarillo{
+  color: #ffc62a;
+  font-family: "Fontfabric-UniNeueBold";
+
+}
+
+.item_negro{
+  color: #000;
+  font-family: "Fontfabric-UniNeueBold";
+
+}
+
+.listado_qs{
+
+  margin-top:162px;
+  margin-left: -162px;
+}
 .title_mision {
   text-align: justify;
 }
@@ -665,6 +716,46 @@ form {
     border-radius: 12px;
     background-color: rgba(0, 0, 0, 0.1);
   }
+   .search{
+    border-color: #ffc62a;
+    width:155px;
+    height: 30px;
+    border-radius: 12px;
+    border-style: none;
+    opacity: 0.5;
+  
+  }.search:hover{
+    
+    width:155px;
+    height: 30px;
+    border-radius: 12px;
+    border-style: none;
+    opacity: 0.5;
+  
+  } 
+  .fa-solid{
+    position:absolute;
+    left: 130px;
+    top:6px;
+    color:#ffc62a;
+    font-size: 20px;
+    z-index: 999;
+   
+  }
+  
+  .form-control{
+    margin-left:2px;
+    margin-top: 0px;
+    width: 100px;
+  }
+
+  .form-label{
+    border-color: #ffc62a;
+    margin-left:2px;
+    margin-top: 0px;
+    width: 80px;
+
+  }
 
   .linea_filtro {
     width: 150px;
@@ -756,7 +847,7 @@ form {
 
   .aviso {
     margin-top: 62px;
-    width: 60vw;
+    width: 80vw;
     height: 150px;
   }
 
@@ -830,6 +921,7 @@ form {
     padding-top: 12px;
   }
   /*about*/
+ 
 
   .img-mision {
     height: auto;

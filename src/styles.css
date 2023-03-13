@@ -1,10 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
 * {
-  padding: 0px;
-  margin: 0px;
- /*  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  
+ text-decoration: none;
   list-style: none;
-  box-sizing: border-box; */
+  box-sizing: border-box; 
 }
 @font-face {
   font-family: "Fontfabric-UniNeueHeavy";
@@ -19,8 +20,9 @@
 
 html,
 body {
- max-width: 100% ;
+ width: 100%;
   margin: 0;
+  padding: 0;
  
   min-height: 50vw;
 }
@@ -33,7 +35,7 @@ body {
 }
  */
 .navb {
-  width: 100%;
+  width: 100vw;
   background-color: #ffbc2a;
   height: 95px;
    margin-top: -10px;
@@ -61,15 +63,39 @@ h4 {
   /* background-color: #C9D2D3; */
   width: 100vw;
   height: auto;
-  /* height: auto;
-    position: absolute;
-    top:50vh; */
   bottom: 0px;
 }
 
 .title-footer {
   font-family: "Fontfabric-UniNeueBold";
 }
+
+.btn-wsp{
+  position: fixed;
+  right: 2px;
+  box-sizing: border-box;
+  width: 45px;
+  height: 45px; 
+  border: 1px solid #25d366;
+  border-radius: 50%;
+  background: #25d366;
+  box-shadow: 1px 6px 24px 0 rgb(7 94 84 / 24%);
+  overflow: hidden;
+  z-index: 12;
+  /* background-size: 20%; */
+  bottom: 2rem;
+
+
+}
+
+.fa-whatsapp  {
+  color: #fff;
+  margin-left: 8px;
+  margin-top: 8px;
+  font-size: 25px;
+  margin-left: 10px;
+}
+
 /*inicio sidebar Desktop*/
 
 .sidebar {
@@ -174,10 +200,10 @@ h4 {
   margin-left: 20px;
 }
 .img_publicidad {
-  margin-top: 20px;
-  width: 50%;
+  margin-top: 120px;
+  width: 70%;
   height: 220px;
-  margin-left: -520px;
+  margin-left: 100px;
 }
 
 /*About*/
@@ -268,7 +294,7 @@ h4 {
   background-image: url(".././src/assets/img/banner-facilcar.jpg");
   background-repeat: no-repeat;
   background-size: contain;
-  width: 100vw;
+  width: 100%;
   overflow-x: hidden !important; 
   height: 600px;
 }
@@ -485,12 +511,12 @@ form {
   margin-top: 16px;
   background-color: black;
   border-radius: 12px;
-  height: auto !important;
-  width: 850px;
+  height: 300px;
+  width: 650px;
 }
 
 .linea_nombre {
-  font-size: 22px;
+  font-size: 14px;
   color: #000;
   font-family: "Fontfabric-UniNeueHeavy";
 }
@@ -681,13 +707,14 @@ form {
   .navb {
     width: 100%;
     background-color: #ffbc2a;
-    height: 95px;
+    height: 105px;
     margin-top: -10px;
   }
-  .logo-image img {
-    width: 129px;
-	height: 32px;
-}
+
+/*   .logo-image img  {
+    width: 229px;
+	  height: 132px;
+} */
 
   .banner {
     width: 60vw;

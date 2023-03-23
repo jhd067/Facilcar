@@ -6,99 +6,32 @@
       <span style="color: #000">Clasi</span
       ><span style="color: #ffc62a">ficados</span>
     </h1>
-    <div class="container">
-      <div class="card-group card-principal">
+   <!--  <div class="container">
+      <div class="card card-principal">
         <div *ngFor="let carro of carros?.datos" class="card">
           <img [src]="carro.fotosventa_ruta" class="imgcard" alt="" />
           <div class="card-body">
-            <!-- <h5 class="card-title card-titles">{{carro.ciudad_codigo}}</h5> -->
+            
             <p class="card-text linea_nombre">{{ carro.linea_nombre }}.</p>
-            <!-- <p class="card-text"><strong>Marca:</strong>{{carro.linea_familia}}.</p> -->
+           
             <p class="card-text precio">${{ carro.venta_valor }}.</p>
           </div>
         </div>
       </div>
   
     </div>
-  
-    <div class="card-body">
-             
-      <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
-      <p class="card-text">EjecutivoFacilcar@.gmail.com</p>
-      <!-- <a href="#" class="card-link">Card link</a>
-      <a href="#" class="card-link">Another link</a> -->
+   -->
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div *ngFor="let carro of carros?.datos" class="col">
+        
+          <div  class="card card-principal">
+            <img [src]="carro.fotosventa_ruta" class="imgcard" alt="" />
+            <div class="card-body">
+              <p class="card-text linea_nombre">{{ carro.linea_nombre }}.</p>
+              <p class="card-text precio">${{ carro.venta_valor }}.</p>
+            </div>
+          </div>
+        
+      </div>
     </div>
-    <div class="card-body">
-             
-      <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
-      <p class="card-text">EjecutivoFacilcar@.gmail.com</p>
-      <!-- <a href="#" class="card-link">Card link</a>
-      <a href="#" class="card-link">Another link</a> -->
-    </div>
-    <div class="card-body">
-             
-      <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
-      <p class="card-text">EjecutivoFacilcar@.gmail.com</p>
-      <!-- <a href="#" class="card-link">Card link</a>
-      <a href="#" class="card-link">Another link</a> -->
-    </div>
-    <div class="card-body">
-             
-      <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
-      <p class="card-text">EjecutivoFacilcar@.gmail.com</p>
-      <!-- <a href="#" class="card-link">Card link</a>
-      <a href="#" class="card-link">Another link</a> -->
-    </div>
-    <div class="card-body">
-             
-      <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
-      <p class="card-text">EjecutivoFacilcar@.gmail.com</p>
-      <!-- <a href="#" class="card-link">Card link</a>
-      <a href="#" class="card-link">Another link</a> -->
-    </div>
-    <div class="card-body">
-             
-      <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
-      <p class="card-text">EjecutivoFacilcar@.gmail.com</p>
-      <!-- <a href="#" class="card-link">Card link</a>
-      <a href="#" class="card-link">Another link</a> -->
-    </div>
-    <div class="card-body">
-             
-      <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
-      <p class="card-text">EjecutivoFacilcar@.gmail.com</p>
-      <!-- <a href="#" class="card-link">Card link</a>
-      <a href="#" class="card-link">Another link</a> -->
-    </div>
-    <div class="card-body">
-             
-      <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
-      <p class="card-text">EjecutivoFacilcar@.gmail.com</p>
-      <!-- <a href="#" class="card-link">Card link</a>
-      <a href="#" class="card-link">Another link</a> -->
-    </div><div class="card-body">
-             
-      <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
-      <p class="card-text">EjecutivoFacilcar@.gmail.com</p>
-      <!-- <a href="#" class="card-link">Card link</a>
-      <a href="#" class="card-link">Another link</a> -->
-    </div><div class="card-body">
-             
-      <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
-      <p class="card-text">EjecutivoFacilcar@.gmail.com</p>
-      <!-- <a href="#" class="card-link">Card link</a>
-      <a href="#" class="card-link">Another link</a> -->
-    </div><div class="card-body">
-             
-      <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
-      <p class="card-text">EjecutivoFacilcar@.gmail.com</p>
-      <!-- <a href="#" class="card-link">Card link</a>
-      <a href="#" class="card-link">Another link</a> -->
-    </div><div class="card-body">
-             
-      <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
-      <p class="card-text">EjecutivoFacilcar@.gmail.com</p>
-      <!-- <a href="#" class="card-link">Card link</a>
-      <a href="#" class="card-link">Another link</a> -->
-    </div>
-  </div>
+</div>

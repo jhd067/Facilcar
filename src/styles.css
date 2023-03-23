@@ -503,17 +503,21 @@ form {
 }
 
 .imgcard {
-  height: 300px;
+  height: 200px;
   width: 100%;
 }
 
 .card-principal {
   margin-top: 16px;
-  background-color: black;
+  background-color: #fff;
   border-radius: 12px;
   height: 300px;
-  width: 650px;
+  width: 350px;
 }
+/* .card{
+  width: 1650px;
+
+} */
 
 .linea_nombre {
   font-size: 14px;

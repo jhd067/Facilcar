@@ -9,23 +9,25 @@
     <span style="color: #000">Clasificados</span><span style="color: #ffc62a">destacados</span>
   </h3>
  
-    <div class="row relevantes"> 
-      <div class="container_home">
+   <!--  <div class="row relevantes"> 
+      <div class="container_home"> -->
       
-        <div class="card-group card-principal">
-          <div *ngFor="let carro of carros?.datos" class="card">
-            <img [src]="carro.fotosventa_ruta" class="imgcard" alt="" />
-            <div class="card-body">
-           
-              <p class="card-text linea_nombre">{{ carro.linea_nombre }}.</p>
-              
-              <p class="card-text precio">${{ carro.venta_valor }}.</p>
-            </div>
-          </div>          
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div *ngFor="let carro of carros?.datos" class="col">
+            
+              <div  class="card card-principal">
+                <img [src]="carro.fotosventa_ruta" class="imgcard" alt="" />
+                <div class="card-body">
+                  <p class="card-text linea_nombre">{{ carro.linea_nombre }}.</p>
+                  <p class="card-text precio">${{ carro.venta_valor }}.</p>
+                </div>
+              </div>
+            
+          </div>
         </div>
         <a href="http://localhost:4200/busqueda" type="button"><div class="btn-mas">Ver mas</div></a>
-      </div>
-    </div> 
+     <!--  </div>
+    </div>  -->
     <div class="contain">
       <img src="../../../assets/img/facil_propio.jpg"  alt="publicidad" class="img_publicidad"/>
     </div>

@@ -14,6 +14,7 @@ import { ContactenosComponent } from './components/contactenos/contactenos.compo
 import { FooterComponent } from './components/shared/footer/footer.component';
 import { SidebarComponent } from './components/shared/sidebar/sidebar.component';
 import { BusquedaComponent } from './components/busqueda/busqueda.component';
+import { LoadingComponent } from './components/shared/loading/loading.component';
 
 
 
@@ -30,6 +31,7 @@ import { BusquedaComponent } from './components/busqueda/busqueda.component';
     FooterComponent,
     SidebarComponent,
     BusquedaComponent,
+    LoadingComponent,
    
 
     

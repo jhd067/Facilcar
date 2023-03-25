@@ -2,21 +2,20 @@
   <div class="row">
     <h1 class="title_contactenos"><span style="color:#000">Contac</span><span style="color:#ffc62a">tanos</span></h1>
     <br>
-    <div class="row">
-      <div class="col ">
-
-        <form>
-          <h3 class="subtitulo_form">Dejanos tus datos</h3>
-          <br>
+    <div class="contactenos">
+      <form>
+        <img src="../../../assets/img/icono.png" alt="" class="icono">
+          <br> 
           <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">Nombre</label>
-            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <!-- <label for="exampleInputEmail1" class="form-label">Nombre</label> -->
+            <input type="text" class="form-control selectcontacto" placeholder="                                     Nombre" required >
 
           </div>
-          <label for="exampleInputEmail1" class="form-label">Departamento</label>
+          
           <div class="mb-3">
 
-            <select class=" form-select selectcontacto" id="exampleFormControlSelect1">
+            <select class=" form-select selectcontacto" id="exampleFormControlSelect1" required >
+              <option selected>Departamentos</option>
               <option>Bogotá</option>
               <option>Valle del cauca</option>
               <option>Antioquia</option>
@@ -25,10 +24,11 @@
             </select>
 
           </div>
-          <label for="exampleInputEmail1" class="form-label">Ciudad</label>
+          
           <div class="mb-3">
 
-            <select class=" form-select selectcontacto" id="exampleFormControlSelect1">
+            <select class=" form-select selectcontacto" id="exampleFormControlSelect1" required >
+              <option selected>Ciudades</option>
               <option>Bogotá</option>
               <option>Cali</option>
               <option>Medellín</option>
@@ -38,18 +38,18 @@
 
           </div>
           <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">celular</label>
-            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+           
+            <input type="text" class="form-control selectcontacto" placeholder="                                     Celular                         " required >
 
           </div>
           <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">Email</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+           
+            <input type="email" class="form-control selectcontacto" placeholder="                                     Email" required >
 
           </div>
           <div class="form-group  form-check">
             <input type="checkbox" class="form-check-input" id="politica">
-            <label class="form-check-label small" for="politica">Acepto la política de <a target="_blank" href="http://www.ssangyong.com.co/wp-content/uploads/2020/08/PTDP-SSANGYONG-MOTOR-COLOMBIA.pdf">Tratamiento de Datos Personales</a></label>
+            <label class="form-check-label small" for="politica" required >Acepto la política de <a target="_blank" href="http://www.ssangyong.com.co/wp-content/uploads/2020/08/PTDP-SSANGYONG-MOTOR-COLOMBIA.pdf">Tratamiento de Datos Personales</a></label>
          </div>
 
           <div class="mb-3">
@@ -57,86 +57,25 @@
           </div>
 
 
-         </form>
-      </div>
-        <div class="col">
-          <div style="margin-top: 50px;"><iframe
+        </form>
+    </div>
+
+      
+      
+        <div class="map">
+          <div style="margin-top: 10px;"><iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3982.239375097544!2d-76.30020433595689!3d3.5321100516657133!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3a04e911a48419%3A0x6789bf02cf3da97f!2sSanta%20Rita%2C%20Palmira%2C%20Valle%20del%20Cauca!5e0!3m2!1ses!2sco!4v1678075781744!5m2!1ses!2sco"
-              width="500" height="700" style="border:0;" allowfullscreen="" loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"></iframe></div>
-               <!-- <div class="col redes_sociales">
-          <div class="row">
-            <div class="col">
-              <div class="card card-contactenos" >
-               
-                  <h5 class="card-ciudades">Horarios</h5>
-                  
-                  <p class="card-text">Lunes a viernes de 7:30 am a 5:00 pm
-                  </p>
-                 
-                
-              </div>
+              width="1000" height="700" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
-            <div class="col">
-              <div class="card card-contactenos" >
-                <div class="card-email">
-                   
-                  <h5 class="card-title"><i class="gg-mail"></i> Email</h5>           
-                 
-                </div>
-                <div class="card-body">
-                       
-                  <p class="card-text">EjecutivoFacilcar@.gmail.com</p>
-                  
-              </div>
-            </div>
-            <div class="col ">
-              <div class="card card-contactenos" >
-                
-                  <h5 class=" card-ciudades"> <i class="gg-pin"></i>Ciudades</h5>
-                 
-                  <p class="card-text">Barranquilla</p>
-                  <p class="card-text">Bogota</p>
-                  <p class="card-text">Cali</p>
-                  <p class="card-text">Cartagena</p>
-                  <p class="card-text">Medellin</p>
-                  
-        
-               
-                  
-              </div>
-            </div>
-          </div>
-          
          
         </div>
-           
-          </div> -->
-          </div>
-        </div>
+
+  </div>
+ 
 
 
-      </div>
-
-
-     <!--  <h3 class="title_redessoc">Siguenos</h3>
-      <div class="row rds">
-        <div class="col">
-          <a href="https://www.facebook.com/facilcartutaxifacilyrapido" target="_blank">
-            <img src="/assets/img/facebook.png" alt="" width="70px" height="70px">
-          </a>
-
-        </div>
-        <div class="col">
-          <img src="/assets/img/youtube.png" alt="" width="50px" height="50px">
-        </div>
-        <div class="col">
-          <a href="https://wa.link/7ug82h">
-            <img src="/assets/img/wsp.png" alt="" width="50px" height="50px" target="_blank">
-          </a>
-
-        </div>
-      </div> -->
+     
 
 
 

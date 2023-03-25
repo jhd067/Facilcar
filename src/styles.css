@@ -59,6 +59,7 @@ h4 {
   margin-left: 62px;
 }
 
+
 .footer {
   /* background-color: #C9D2D3; */
   width: 100vw;
@@ -166,7 +167,7 @@ h4 {
   height: 32px;
   border-radius: 12px;
   margin-top: 30px;
-  margin-left: 330px;
+  margin-left: 430px;
  /*  justify-content: center;
   align-items: center; */
   cursor: pointer;
@@ -369,7 +370,7 @@ form {
   width: 400px;
   height: 500px;
   margin-top: 80px;
-  margin-left: 60px;
+  margin-left: 0px;
 
   justify-content: center;
   align-items: center;
@@ -400,9 +401,12 @@ form {
   margin-top: -60px;
   margin-left: 62px;
 }
+.icono{
+ margin-left: 100px;
+}
 
 .contactenos {
-  margin-left: 32px;
+  margin-left: 332px;
   border: solid #ffc62a;
   border-radius: 30px;
   width: 40%;

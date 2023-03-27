@@ -1,6 +1,6 @@
-<div class="container">
 
- <div class="row">
+
+
   <div class="banner"></div> 
 
 
@@ -8,9 +8,8 @@
   <h3 class="tittle_cf">
     <span style="color: #000">Clasificados</span><span style="color: #ffc62a">destacados</span>
   </h3>
+  <app-loading *ngIf="loading"></app-loading>
  
-   <!--  <div class="row relevantes"> 
-      <div class="container_home"> -->
       
         <div class="row row-cols-1 row-cols-md-3 g-4">
           <div *ngFor="let carro of carros?.datos" class="col">
@@ -28,14 +27,14 @@
         <a href="http://localhost:4200/busqueda" type="button"><div class="btn-mas">Ver mas</div></a>
      <!--  </div>
     </div>  -->
-    <div class="contain">
+    <!-- <div class="contain"> -->
       <img src="../../../assets/img/facil_propio.jpg"  alt="publicidad" class="img_publicidad"/>
-    </div>
-</div>
+   <!--  </div>
+ -->
 
 
   
 
 
- </div>
+
   

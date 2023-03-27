@@ -12,14 +12,18 @@ import {ApiService} from'../../services/api.service';
 
 export class HomeComponent implements OnInit {
   public carros: Listcarros | undefined;
+  loading:boolean;
 
   
-  constructor(private api:ApiService){}
+  constructor(private api:ApiService){
+   this.loading=true;
+  }
 
   async getCars() {
     await this.api.getallcars().subscribe(data => {
       this.carros = data; 
       console.log(data);
+      this.loading=false;
       
     });
   }
